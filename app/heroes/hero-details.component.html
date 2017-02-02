@@ -1,0 +1,24 @@
+<h3>HEROES</h3>
+<div *ngIf="hero">
+    <h3>"{{ hero.name }}"</h3>
+    <div>
+        <div class="avatar-container">
+            <div class="avatar-border"></div>
+            <img class="avatar" src="{{hero.assetPath}}">
+        </div>
+        <div>
+            <label>ID # </label>{{ hero.id }}
+        </div>
+        <div>
+            <label>Name: </label>
+            <input [(ngModel)]="hero.name" placeholder="name" />
+        </div>
+        <div>
+            <label>Phone: </label>
+            <input [(ngModel)]="hero.phone" placeholder="name" />
+        </div>
+        <p>
+            <button class="btn btn-default" (click)="gotoHeroes()">Back</button>
+        </p>
+    </div>
+</div>

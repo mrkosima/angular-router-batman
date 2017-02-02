@@ -1,0 +1,10 @@
+<nav>
+    <ul class="nav nav-pills pull-right">
+        <li routerLinkActive="active"><a routerLink="/tasks">Tasks</a></li>
+        <li routerLinkActive="active"><a routerLink="/heroes">Heroes</a></li>
+        <li routerLinkActive="active"><a routerLink="/batman">I'm Batman</a></li>
+        <li routerLinkActive="active"><a routerLink="/login">Login</a></li>
+        <li routerLinkActive="active"><a [routerLink]="[{ outlets: { popup: ['call'] } }]">Call Batman</a></li>
+    </ul>
+</nav>
+<h2 class="text-muted">Hello {{authService.getUserName() | async}}</h2>
