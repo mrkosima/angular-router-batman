@@ -6,6 +6,14 @@ input {
     width: 300px;
 }
 
+.label {
+    font-size: 1em;
+}
+
+.top10 {
+    padding-top: 10px;
+}
+
 .avatar-container {
     position: relative;
     display: inline-block;

@@ -30,7 +30,7 @@ export class CallComponent {
 
         setTimeout(() => {
             this.sending = false;
-            // this.closePopup();
+            this.closePopup();
         }, 1000);
     }
 
