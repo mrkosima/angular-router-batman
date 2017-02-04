@@ -4,7 +4,7 @@ import {NavigationExtras, Router} from "@angular/router";
 
 @Component({
     selector: 'login',
-    template: `<h3>Login</h3>
+    template: `<h3>LOGIN</h3>
 <p>{{message}}</p>
 <p>
     <button *ngIf="!authService.isLoggedIn" class="btn btn-default" (click)="login()">Login</button>

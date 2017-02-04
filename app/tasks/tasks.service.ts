@@ -7,7 +7,7 @@ export class Task {
 }
 
 const TASKS = [
-    new Task(1, 'Take Robin for driving lessons'),
+    new Task(1, 'Take Robin to driving lessons'),
     new Task(2, 'Wash Batmobile'),
     new Task(3, 'Fix bat-signal lamp'),
     new Task(4, 'Give a hug to Alfred')

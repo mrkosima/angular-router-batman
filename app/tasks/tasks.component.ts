@@ -2,7 +2,7 @@ import {Component} from "@angular/core";
 
 @Component({
     template: `
-<h3>Tasks</h3>
+<h3>TASKS</h3>
 <router-outlet></router-outlet>
 `
 })

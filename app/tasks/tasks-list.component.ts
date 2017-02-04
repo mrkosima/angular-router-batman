@@ -5,7 +5,6 @@ import {Router, ActivatedRoute, Params} from "@angular/router";
 
 @Component({
     template: `
-<h4>Tasks List</h4>
 <ul class="items">
     <li *ngFor="let task of tasks$ | async"
         (click)="onSelect(task)"
