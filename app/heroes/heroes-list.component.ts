@@ -13,6 +13,7 @@ import {Hero, HeroesService} from "./heroes.service";
         <span class="badge">{{ hero.id }}</span> {{ hero.name }}
       </li>
     </ul>
+    <div><button class="btn btn-warning" routerLink="/under_construction">Under construction</button></div>
   `
 })
 
