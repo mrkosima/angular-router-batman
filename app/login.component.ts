@@ -32,6 +32,7 @@ export class LoginComponent {
                     preserveFragment: true
                 };
                 this.router.navigate([redirect], navigationExtras);
+                this.authService.redirectUrl = null;
             }
         });
     }

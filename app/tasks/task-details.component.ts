@@ -1,4 +1,4 @@
-import {Component, OnInit} from "@angular/core";
+import {Component, OnInit, HostBinding} from "@angular/core";
 import {Router, ActivatedRoute} from "@angular/router";
 import {Task} from "./tasks.service";
 import {DialogService} from "../dialog.service";

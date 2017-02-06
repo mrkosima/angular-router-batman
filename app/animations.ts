@@ -13,10 +13,10 @@ export const fadeAnimation: AnimationEntryMetadata =
                 opacity: 0,
                 transform: 'translateY(20px)'
             }),
-            animate('1s ease-in')
+            animate('0.5s ease-in')
         ]),
         transition(':leave', [
-            animate('1s ease-in', style({
+            animate('0.5s ease-in', style({
                 opacity: 0,
                 transform: 'translateY(20px)'
             }))

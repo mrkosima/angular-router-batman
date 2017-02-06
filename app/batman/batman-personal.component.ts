@@ -4,11 +4,11 @@ import {Component} from "@angular/core";
     template: `
 <div class="avatar-container">
     <div class="avatar-border"></div>
-    <img class="avatar" src="/assets/batman.jpg">
+    <img class="avatar" src="https://i.imgur.com/FgzqfKl.jpg">
 </div>
 `
 })
 
-export class BatmanAvatarComponent {
+export class BatmanPersonalComponent {
 
 }

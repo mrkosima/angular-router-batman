@@ -3,7 +3,7 @@ import {RouterModule, Routes} from "@angular/router";
 import {BatmanComponent} from "./batman.component";
 import {AuthGuard} from "../auth-guard.service";
 import {BatmanDashboardComponent} from "./batman-dashboard.component";
-import {BatmanAvatarComponent} from "./batman-avatar.component";
+import {BatmanPersonalComponent} from "./batman-personal.component";
 
 const routes: Routes = [
     {
@@ -12,7 +12,7 @@ const routes: Routes = [
         canActivateChild: [AuthGuard],
         children: [
             {path: '', component: BatmanDashboardComponent},
-            {path: 'avatar', component: BatmanAvatarComponent}
+            {path: 'personal', component: BatmanPersonalComponent}
         ]
     }
 ];

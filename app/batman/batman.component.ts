@@ -7,7 +7,7 @@ import {Component} from "@angular/core";
     <nav>
         <ul class="nav nav-pills">
             <li routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"><a routerLink="./" preserveQueryParams preserveFragment>Dashboard</a></li>
-            <li routerLinkActive="active"><a routerLink="./avatar" preserveQueryParams preserveFragment>Avatar</a></li>
+            <li routerLinkActive="active"><a routerLink="./personal" preserveQueryParams preserveFragment>Personal</a></li>
         </ul>
     </nav>
 </div>
